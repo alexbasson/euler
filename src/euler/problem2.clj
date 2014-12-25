@@ -9,7 +9,7 @@
       (fib-iter (- n 1) b (+ a b))))
   (fib-iter n 0 1))
 
-(defn even-fibs
+(defn sum-of-even-fibs
   [limit]
   (loop [n 1
          evens []]
