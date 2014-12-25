@@ -2,10 +2,6 @@
   (:require [speclj.core :refer :all]
             [euler.problem1 :refer :all]))
 
-(describe "a test"
-  (it "FIXME, I fail."
-    (should= 1 1)))
-
 (describe "divisible-by-3?"
   (it "should return true that 6 is divisble by 3"
     (should (divisible-by-3? 6)))
