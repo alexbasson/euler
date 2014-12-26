@@ -14,9 +14,7 @@
   (loop [n 1
          evens []]
     (if (> (fibonacci n) limit)
-      (do
-        (println evens)
-        (reduce + 0 evens))
+      (reduce + 0 evens)
       (let [fib (fibonacci n)]
         (if (= 0 (mod fib 2))
           (recur (inc n) (conj evens fib))
